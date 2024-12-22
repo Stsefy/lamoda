@@ -1,0 +1,15 @@
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  height: calc(100vh - 150px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  gap: 20px;
+}
+
+.no-products {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #666;
+}

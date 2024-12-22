@@ -1,0 +1,33 @@
+.filters {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  margin-right: 20px;
+  align-self: flex-start;
+
+  & p {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  & label {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+.inputs-wrap {
+  display: flex;
+
+  & input {
+    width: 60px;
+    padding: 5px;
+  }
+
+  & span {
+    margin: 0 5px;
+  }
+}

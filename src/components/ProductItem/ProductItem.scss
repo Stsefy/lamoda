@@ -1,0 +1,38 @@
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  max-height: 500px;
+  text-align: center;
+  transition: box-shadow 0.3s, transform 0.3s;
+  
+  & img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  & h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  & p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  & .price,
+  & .color,
+  & .rating {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+
+  &:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+  }
+}

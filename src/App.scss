@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.app-layout {
+  display: flex;
+  margin: 20px 20px 0;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-sort {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+  & input {
+    padding: 10px;
+    width: calc(100% - 20px);
+  }
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.button-active {
+  background-color: #007bff;
+}
+
+.right-wrap {
+  width: 100%;
+}
